@@ -47,7 +47,7 @@ function App() {
   };
 
   return (
-    <div className="w-full h-screen bg-gray-100 flex justify-center items-center">
+    <div className="w-full h-full bg-gray-100 flex justify-center items-center">
       <div className="">
         <div className="rounded-xl bg-gray-200 p-2 shadow-xl flex flex-col items-center">
           <div>
