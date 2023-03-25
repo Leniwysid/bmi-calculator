@@ -10,7 +10,7 @@ function App() {
   const [bmi, setBmi] = useState("");
   const [message, setMessage] = useState("");
 
-  let calcBmi = (e) => {
+  const calcBmi = (e) => {
     e.preventDefault();
 
     if (weight === 0 || height === 0) {
